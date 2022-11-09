@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/photon.css">
+    <title></title>
+</head>
+
+<body>
+
+    <div class="window">
+
+        <header class="toolbar toolbar-header">
+            <h1 class="title">Ahorcado</h1>
+        </header>
+
+        <div class="window-content">
+            <div class="pane-group">
+                <div class="pane-sm sidebar">
+
+                    <h1>Jugador 1</h1>
+                    <div class="form-group">
+                        <label>Palabra</label>
+                        <input id="palabra" type="password" class="form-control" placeholder="Palabra a adivinar">
+
+                    </div>
+
+                    <h1>Jugador 2</h1>
+                    <div class="form-group">
+                        <label>Letra</label>
+                        <input id="letra" type="text" class="form-control"  maxlength="1">
+                        <h1 id="guiones"></h1>
+                        <button class="btn btn-positive" id="boton">Reiniciar</button>
+                    </div>
+
+                    
+                </div>
+                <div class="pane"><img id="ahora" src="./img/0.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
